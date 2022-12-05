@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-def element_at(my_list, idx):
-    if 0 <= idx < len(my_list):
-        return my_list[idx]
-    return None
+def divisible_by_2(my_list=[]):
+    new_list = [not i % 2 for i in my_list]
+    return (new_list)
